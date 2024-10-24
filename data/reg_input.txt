@@ -1,0 +1,22 @@
+# 'reg_input' stan model inputs contain the following list items:
+
+# MODEL DIMENSIONS
+N: number of survey records
+Y: number of years
+P: number of partitions
+S: number of survey sites per partition
+
+# LOOK-UP VECTORS FOR
+# MAPPING TO SURVEY RECORD
+XY: year to record
+XP: partition to record
+XS: site to record
+
+# EMPIRICAL DATA
+y: survey count records (numbers)
+survey_area: survey area (km2) per year per survey site
+
+# LABELS
+years: year labels
+sites: site labels
+partition: partition labels
